@@ -1,26 +1,27 @@
-function testing(){
+function testAirtable(){
 
- // get the URL from 
+ // get the specific URL from your Airtable API 
  // USING QUERY PARAMETER
- var url = 'https://api.airtable.com/v0/<USERID>/Table%201/<TABLEID>?api_key=<APIKEY>' 
+ var url = 'https://api.airtable.com/v0/<BASEID>/Table%201/<TABLEID>?api_key=<APIKEY>' 
 
  var option = {
     'muteHttpExceptions': true
  };
   
  var response = UrlFetchApp.fetch(url, option);
- Logger.log(response);
+ Logger.log(response); // check log to see if successful
 
 }
 
 
 function getData(){
 
- // USING BEARER TOKEN (RECOMMENDED)
- var url = 'https://api.airtable.com/v0/<USERID>/Table%201/<TABLEID>' 
+ // get the specific URL from your Airtable API
+ // USING BEARER TOKEN (RECOMMENDED) 
+ var url = 'https://api.airtable.com/v0/<BASEID>/Table%201/<TABLEID>' 
 
  var headers = {
-   'Authorization': 'Bearer <APIKEY>',
+   'Authorization': 'Bearer <APIKEY>', 
    'Content-Type': 'application/json',
   };
   
@@ -37,7 +38,7 @@ function getData(){
 
 function postData(){
 
- var url = 'https://api.airtable.com/v0/<USERID>/Table%201/<TABLEID>' 
+ var url = 'https://api.airtable.com/v0/<BASEID>/Table%201/<TABLEID>' 
 
  var headers = {
    'Authorization': 'Bearer <APIKEY>',
@@ -45,6 +46,7 @@ function postData(){
    
   };
   
+ // insert data that you would like to update 
  var data = {
     'fields':{
       'Name': 'Pauline',
@@ -62,5 +64,4 @@ function postData(){
   
  var response = UrlFetchApp.fetch(url, options);
  Logger.log(response);
-
 }
