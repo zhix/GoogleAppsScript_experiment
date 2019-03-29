@@ -55,4 +55,4 @@ https://www.youtube.com/watch?v=2y7Y5hwmPc4
 [screenshot2]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture.PNG "try2"
 [screenshot3]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture2.PNG "try3"
 [screenshot4]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture3.PNG "try3"
-[screenshot4]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture4.PNG "try3"
+[screenshot5]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture4.PNG "try3"
