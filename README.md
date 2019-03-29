@@ -41,18 +41,22 @@ Check out the documentation to obtain the triggering URL you need.
 ![][screenshot5]
 
 
+## [Get the coordinate of addresses](https://github.com/zhix/GoogleAppsScript_experiment/blob/master/mapCoord.gs)
+1) Objective: Populate the Sheet with coordinates of addresses. 
+2) On GSheet, make a button, and assign the generateCoord() function to it. 
+3) Example as follows: 
+
+![][screenshot6]
+
  
 ## Tips
-1) Try adding a button on GDoc/Sheet to assign and run one of the functions when clicked. 
-Refer > http://googleappscripting.com/google-spreadsheet-button/
-
-2) 
-
-## Reference 
-https://www.youtube.com/watch?v=2y7Y5hwmPc4 
+* [Button on Google Sheet to run Apps Script](http://googleappscripting.com/google-spreadsheet-button/)
+* [Apps Script: Open a new tab with an image](https://www.youtube.com/watch?v=2y7Y5hwmPc4) 
+* [Documentation: Geocoder](https://developers.google.com/apps-script/reference/maps/geocoder)
 
 [screenshot]:  https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Screenshot_20190326-233050.jpg "try1"
 [screenshot2]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture.PNG "try2"
 [screenshot3]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture2.PNG "try3"
 [screenshot4]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture3.PNG "try3"
 [screenshot5]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture4.PNG "try3"
+[screenshot6]: https://github.com/zhix/GoogleAppsScript_experiment/blob/master/Media/Capture5.PNG "try3"
